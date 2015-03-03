@@ -1,5 +1,5 @@
 {
-    "name": "ttek/tk-plugin",
+    "name": "ttek/kaos-plugin",
     "type": "library",
     "description": "Manage and add plugin functionality to a site",
     "keywords": ["tropotek", "Plg"],
