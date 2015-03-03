@@ -79,7 +79,7 @@ class Factory extends \Tk\Object
                 if (method_exists($plug, 'init')) {
                     $plug->getInfo();
                     $plug->init();
-                    \Tk\Log\Log::write($plug->getClassName().'::init()');
+                    \Tk\Config::getInstance()->getLog()->getLogger()->log($plug->getClassName().'::init()');
                 }
                 $active[$pluginName] = $plug;
             }
