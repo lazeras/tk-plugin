@@ -24,3 +24,4 @@ Ver 1.0.2 [2013-12-14]:
  - Tag: Updated composer.json for tag release
 
 
+forked for editing
